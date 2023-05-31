@@ -78,3 +78,10 @@
   width: 1
   0%; border-radius: 60%;
 }
+
+.contato__email::placeholder {
+  font-family: var(--fonte-principal);
+  color: var(--azul);
+  background: url("../img/cartinha.svg") no-repeat;
+  padding-left: 2em;
+}
